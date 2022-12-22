@@ -17,6 +17,11 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
+    "paths": {
+      "splashbi-lib": [
+        "dist/splashbi-lib"
+      ]
+    },
     "module": "ES2022",
     "useDefineForClassFields": false,
     "lib": [
